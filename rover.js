@@ -15,7 +15,7 @@ for( var i = 0; i < 10; i++){
   var info = prompt("Would you like to turn the rover left / right or move forward?")
   console.log("Your rover is currently facing " + direction + ", in position " + rover.position);
 
-// This function should allow the user to give 10 commands to the rover
+// This function should allow the user to give a loop of 10 commands to the rover before topping.
 // The next four functions are to excute all the left turn outcomes for direction.(north,south,east,west)
   if(info == "left" && direction == rover.wayz[0]){
     console.log("Left turn was called! Your rover is now facing " + rover.wayz[1]);

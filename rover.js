@@ -3,6 +3,7 @@ var y = 0;
 var past = [x ,y];
 var i = 0;
 var direction= rover.wayz[0];
+// THE ROVER OBJECT IS GIVING ME AN ERROR FOR THE WAYZ ARRAY.
 var rover ={ wayz:['North', 'West', 'South', 'East'],
 position: [x ,y],
 }
